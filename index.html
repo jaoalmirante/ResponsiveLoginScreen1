@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    <body>
+<body>
+    <header>
+        <h1>Entrar em contato</h1>
+    </header>
+    <main>
         <form>
-            <h3>Entrar em contato</h3>
-            <input id= "email" type="text" name="email" placeholder="Seu e-mail..."/>
-            <input type="password" name="senha" placeholder="Sua senha..."/>
-            <input type="submit" name="acao" value="Enviar"/>
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" placeholder="Seu e-mail..." required>
+
+            <label for="password">Senha:</label>
+            <input id="password" type="password" name="senha" placeholder="Sua senha..." required>
+
+            <input type="submit" value="Enviar">
         </form>
-    </body>
+    </main>
+</body>
 </html>
